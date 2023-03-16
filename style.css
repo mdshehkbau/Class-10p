@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+    /* Header-Part */
+
+header {
+    background-color: #87509c;
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.col-6 ul li a {
+    text-transform: uppercase;
+    padding: 8px 20px;
+    display: block;
+    border-radius: 4px;
+}
+.col-6 ul .current a,
+.col-6 ul li:hover {
+    background-color: #643A7C;
+}
+
+/* Button  */
+.button {
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 50px;
+}
+header .button {
+	background: #EB7D4C;
+	border-bottom: 3px solid #CB6B3D;
+	display: inline-block;
+	margin: 40px 0 50px;
+}
+header .button:hover {
+	border-bottom: 3px solid #EB7D4C;
+}
+.row {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+}
+.row h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+/* col */
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* Main Part  */
+
+#service {
+    background-color: #18C2A5;
+    color: #FFF;
+}
+hr {
+	width: 100px;
+    margin: auto;
+}
+
+#service hr {
+    border: 2px solid #14a58c;
+}
+.col-3 img {
+    width: 120px;
+	height:120px;
+	border-radius: 50%;
+	opacity: 0.9; 
+	cursor: pointer;
+	transition: .5s;
+}
+.col-3 img:hover {
+	opacity: 1;
+}
+
+/* Team-Area */
+
+
+#team {
+    background-color: #E7F2F8;
+    color: #3C4760;
+}
+    /* Skill */
+#skill {
+    padding: 50px 0;
+}
+    /* Portfolio */
+#portfolio {
+    background-color: #FFDC98;
+    color: #3A3C3B;
+}
+    /* About */
+#about {
+    background-color: #D74681;
+    color: #fff;
+    padding: 50px 0;
+}
+.col-6 .image {
+    float: left;
+
+}
+.image {
+    ;
+}
+    /* Contact */
+#contact {
+    background-color: #3C549A;
+    color: #FFF;
+}
+/* Footer */
+footer {
+    background-color: #344B8E;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
